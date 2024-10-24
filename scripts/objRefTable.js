@@ -30,7 +30,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.SetLayerVisible,
 		C3.Plugins.TextBox.Acts.SetVisible,
 		C3.Plugins.Text.Acts.SetVisible,
-		C3.Plugins.TextBox.Acts.SetCSSStyle,
 		C3.Plugins.Text.Acts.SetText,
 		C3.Plugins.System.Exps.int,
 		C3.Plugins.TextBox.Exps.Text,
