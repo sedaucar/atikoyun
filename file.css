@@ -1,19 +1,30 @@
-/* Base styles */
 #veri {
-  font-size: 40px;
-  text-align:right;
+	text-align:right;
 }
 
-/* Larger screens */
-@media (min-width: 992px) {
-  #veri  {
+/* styles for desktop devices */
+@media only screen and (min-width: 992px) {
+  #veri{
     font-size: 40px;
+    width: 80%;
+    margin: auto;
   }
-} 
+}
 
-/* Smaller tablets and mobiles */
-@media (max-width: 768px) {
-  #veri  {
-    font-size: 12px;
-  }
+/* styles for tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #veri {
+    font-size: 30px;
+    width: 90%;
+    margin: auto;
+  }
+}
+
+/* styles for mobile devices */
+@media only screen and (max-width: 767px) {
+  #veri {
+    font-size: 12px;
+    width: 100%;
+    margin: 0;
+  }
 }

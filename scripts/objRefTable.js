@@ -10,6 +10,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.TextBox,
 		C3.Behaviors.Sin,
 		C3.Plugins.System.Cnds.OnLayoutStart,
+		C3.Plugins.Browser.Acts.LoadStyleSheet,
 		C3.Plugins.Sprite.Acts.SetVisible,
 		C3.Plugins.System.Cnds.Compare,
 		C3.Plugins.Audio.Acts.Play,

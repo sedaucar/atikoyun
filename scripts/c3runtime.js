@@ -4727,6 +4727,7 @@ function or(l, r)
 }
 
 self.C3_ExpressionFuncs = [
+		() => "file.css",
 		p => {
 			const n0 = p._GetNode(0);
 			return () => n0.ExpInstVar();
